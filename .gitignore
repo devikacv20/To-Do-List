@@ -1,0 +1,52 @@
+# Mac & system files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django database and secrets
+*.sqlite3
+*.log
+*.env
+.env.*
+secrets.json
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Node (if you're using any npm scripts)
+node_modules/
+
+# Flutter build files
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.dart_tool/
+
+# Android specific
+android/.gradle/
+android/app/debug/
+android/app/release/
+android/local.properties
+*.keystore
+
+# iOS (if you're also building iOS)
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Firebase config
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist

@@ -8,6 +8,8 @@ import '../screens/add_edit_task_screen.dart';
 import 'login_screen.dart';
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
@@ -212,8 +214,8 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _addNewTask,
-        child: Icon(Icons.add),
         backgroundColor: Colors.blue.shade600,
+        child: Icon(Icons.add),
       ),
     );
   }
